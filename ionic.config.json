@@ -1,0 +1,7 @@
+{
+  "name": "stetic-hub-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
