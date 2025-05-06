@@ -1,0 +1,20 @@
+ion-grid {
+  --ion-grid-columns:4;
+}
+.grid_main {
+  margin-left:10vw;
+  margin-right:10vw;
+}
+.mt-ion-row{
+  margin-top:3vh;
+}
+.center-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  pointer-events: none; /* Optional: makes it not block clicks underneath */
+}
+
+
+
