@@ -5,7 +5,13 @@
     <ion-title class=''>Dashboard Gerente</ion-title>
 
     <ion-buttons slot='start'>
-      <ion-back-button defaultHref='login' text='Voltar'></ion-back-button>
+      <ion-menu-button auto-hide='false'></ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+        </ion-button>
     </ion-buttons>
 
   </ion-toolbar>
@@ -83,10 +89,73 @@
     </ion-row>
 
 
-
-
-  </ion-grid>
+</ion-grid>
   </div>
+
+
+  <ion-tabs>
+
+     <ion-tab tab="pagamento">
+        <div id="pagamento-page">
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Listen now</ion-title>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+            <div class="example-content">Listen now content</div>
+          </ion-content>
+        </div>
+      </ion-tab>
+
+      <ion-tab tab="home">
+        <div id="home-page">
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Radio</ion-title>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+            <div class="example-content">Radio content</div>
+          </ion-content>
+        </div>
+      </ion-tab>
+
+      <ion-tab tab="funcionarios">
+        <div id="funcionario-page">
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Radio</ion-title>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+            <div class="example-content">Radio content</div>
+          </ion-content>
+        </div>
+      </ion-tab>
+
+
+ <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="pagamento">
+      <ion-icon name="cash-outline"></ion-icon>
+      Pagamento
+    </ion-tab-button>
+    <ion-tab-button tab="home">
+      <ion-icon name="home-outline"></ion-icon>
+      Home
+    </ion-tab-button>
+    <ion-tab-button tab="funcionarios">
+      <ion-icon name="person-outline"></ion-icon>
+      Funcionários
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+
+
+
+
+
 
 
 </ion-content>

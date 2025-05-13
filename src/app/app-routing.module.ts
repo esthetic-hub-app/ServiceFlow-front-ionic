@@ -21,7 +21,7 @@ const routes: Routes = [
   },
   {
     path: 'gerente',
-    loadChildren: () => import('./gerente_home/gerente_home.module').then( m => m.Gerente_homePageModule)
+    loadChildren: () => import('./gerente/gerente_main/gerente_main.module').then( m => m.Gerente_mainPageModule)
   },
 ];
 
